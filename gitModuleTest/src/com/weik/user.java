@@ -10,6 +10,7 @@ package com.weik;
 public class user {
     private String name;
     private int age;
+    private int sex;
 
     public String getName() {
         return name;
@@ -25,5 +26,13 @@ public class user {
 
     public void setAge(int age) {
         this.age = age;
+    }
+
+    public int getSex() {
+        return sex;
+    }
+
+    public void setSex(int sex) {
+        this.sex = sex;
     }
 }
