@@ -11,6 +11,7 @@ public class user {
     private String name;
     private int age;
     private int sex;
+    private int height;
 
     public String getName() {
         return name;
